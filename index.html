@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>wellcom!</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+	body{background-color:black;}
+	.msg{color:red;text-align:center;font-size:50px; margin:0px auto;}
+	
+	.button {
+		display: inline-block;
+		border-radius: 8px;
+		background-color: #f4511e;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 28px;
+		padding: 20px;
+		width: 200px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 5px;
+	}
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+	.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+	.button:hover span {
+	  padding-right: 25px;
+	}
+	.button:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+    </style>
+    <script src="jquery-3.3.1.min.js"></script>
+	<script>	
+	var playflag=0;
+	
+	function switchBGM(){
+		var x = document.getElementById("myAudio"); 
+		x.loop=true; 			//循環播放
+		if(playflag==0){
+			x.play();
+			playflag=1;
+		}
+		else{
+			x.pause();
+			playflag=0;
+		}
+	}
+    $(function(){
+    setInterval(flicker,1000);//迴圈閃爍，間隔1秒
+    })
+    function flicker(){//閃爍函數
+    $('.shine').fadeOut(500).fadeIn(500);
+    }
+
+	</script>
+</head>
+
+<body class="bg">
+	<audio id="myAudio">
+		<source src="Lavender Town.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<button onclick="switchBGM()" id="bgmBtn">bgm on/off</button>
+	<div class="msg" id="msg"><font face="DFKai-sb"><blink>歡迎來到基隆鬼地方</blink></font></br>
+    <img src="img\665.gif" alt="cute ghost" height="500" width="500"></br>
+	<div class = "shine"><font face="DFKai-sb">這是一個介紹基隆各地鬼故事的網站</br>當你準備好就一起來探險吧!!!</br></font></div>
+	<button onclick="javascript:location.href='homepage.html'" class="button" style="vertical-align:middle"><span>GO </span></button>
+	</div>
+
+</body>
+
+</html>

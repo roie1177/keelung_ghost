@@ -1,0 +1,896 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.box-2{padding:30px; margin-bottom:10px; text-align:center;}
+.box-2 p{ color:#fff;font-family:'標楷體'; text-align:center;font-size:25px;}
+.box-2{ background:rgba(0,0,0,0.6);margin-bottom:10px;}
+
+
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>基隆鬼地方</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet">
+<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="img/Ghost_Emoji.png" rel="shortcut icon">
+
+</head>
+<body class="index" id="to-top">
+
+
+	<audio id="myAudio">
+		<source src="Lavender Town.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+
+<!-- Side nav -->
+<nav class="side-nav" role="navigation">
+
+  <ul class="nav-side-nav">
+	<li> 
+	<div class="dropdown">
+		<button class="dropbtn" onclick="javascript:location.href='#section-1'" style="background-color:#880000;">To-Top</button>
+	</div>
+	</li> 
+	<li> 
+	<div class="dropdown">
+		<button class="dropbtn" onclick="switchBGM()" style="background-color:#880000;width:80px;">bgm</button>
+	</div>
+	</li>
+	<li> 
+	<div class="dropdown">
+		<button class="dropbtn" style="background-color:#880000">中正區</button>
+		<div class="dropdown-content">
+			<a href="#section-2">海門天險</a>
+			<a href="#section-3">和平島</a>
+			<a href="#section-4">海洋大學 女舍</a>
+            <a href="#section-5">海洋大學 龍岡步道</a>
+            <a href="#section-6">海洋大學 男二宿舍</a>
+            <a href="#section-7">海洋大學 101號房</a>
+            <a href="#section-8">海洋大學 海事大樓</a>
+            <a href="#section-9">蝙蝠洞</a>
+		</div>
+	</div>
+	</li>
+	<li>
+	<div class="dropdown">
+		<button class="dropbtn " style="background-color:#880000">仁愛區</button>
+		<div class="dropdown-content">
+			<a href="#section-10">基隆七號房</a>
+			<a href="#section-11">基隆鬼屋</a>
+		</div>
+	</div>
+	</li>
+	<li>
+	<div class="dropdown">
+		<button class="dropbtn" style="background-color:#880000">中山區</button>
+		<div class="dropdown-content">
+			<a href="#section-12">淨因寺</a>
+		</div>
+	</div>
+	</li>
+	<li>
+	<div class="dropdown">
+		<button class="dropbtn" style="background-color:#880000">安樂區</button>
+		<div class="dropdown-content">
+			<a href="#section-13">情人湖</a>
+			<a href="#section-14">大武崙砲台</a>
+			<a href="#section-15">自強隧道</a>
+            <a href="#section-16">劉銘傳隧道</a>
+		</div>
+	</div>
+	</li>	
+    <li> 
+	<div class="dropdown">
+		<button class="dropbtn" onclick="javascript:location.href='#section-17'" style="background-color:#880000">心得區</button>
+	</div>
+	</li> 
+  </ul>  
+</nav> <!-- /.side-nav -->
+
+
+
+<!-- mainBanner -->
+<header class="mainBanner" role="banner">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-7 col-sm-7">		
+		<!-- Logo -->
+		<figure>
+		  <a style="visibility: hidden;"href="./index.html">
+			<img class="img-logo" src="images/logo.png" alt="">
+		  </a>
+		</figure> <!-- /.text-center -->		
+		<!-- Title -->
+		<h1 class="titletext">Welcome<p>說明:</p><p>點選小鬼魂或旁的按鈕即可看到故事內容</p><p>看到喜歡的故事可以點選旁的紅手掌</p><p>順便寫下心得後載下來</p><p>那就開始吧 !!!</p></h1>
+
+
+		<!-- Button -->
+		<div class="buttons-wrapper">
+				<a href="#section-1" class="button">冒險開始</a>
+			</div>
+			<!-- /.btn-app-store -->
+	  </div> <!-- /.col-md-7 -->
+  
+	</div> <!-- /.row -->	
+  </div> <!-- /.container -->
+</header> <!-- /.mainBanner -->
+
+
+
+
+<!-- Services -->
+<section class="highlights" id="section-1">
+
+  <div class="container">
+	<div class="row">
+	  <p id="Introduction" style="font-size:100px; color:#FFFF00; padding-top: 90px;">choose<img  src='img/ghost.png' height='150px'></br></p>
+	  <img src="img\kl.png" height="500px">
+	  <img id="story1" class="ghost1" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-2'"><!-- 海門天險 -->
+	  <img id="story2" class="ghost2" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-3'"><!-- 和平島 -->
+      <img id="story3" class="ghost3" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-4'"><!-- 海洋大學 女舍 -->
+      <img id="story4" class="ghost4" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-5'"><!-- 海洋大學 龍岡步道-->
+      <img id="story5" class="ghost5" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-6'"><!-- 海洋大學 男二宿舍 -->
+      <img id="story6" class="ghost6" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-7'"><!-- 海洋大學 101號房 -->	  
+	  <img id="story7" class="ghost7" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-8'"><!-- 海洋大學 海事大樓-->
+      <img id="story8" class="ghost8" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-9'"><!-- 蝙蝠洞 -->
+      <img id="story9" class="ghost9" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-10'"><!-- 基隆七號房 -->	  
+	  <img id="story10" class="ghost10" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-11'"><!-- 基隆鬼屋-->
+      <img id="story11" class="ghost11" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-12'"><!-- 淨因寺 -->
+      <img id="story12" class="ghost12" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-13'"><!-- 情人湖 -->	  
+	  <img id="story13" class="ghost13" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-14'"><!-- 大武崙砲台-->
+      <img id="story14" class="ghost14" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-15'"><!-- 自強隧道 -->
+      <img id="story15" class="ghost15" src="img\ghost.png" height="30px" onclick="javascript:location.href='#section-16'"><!-- 劉銘傳隧道-->		  
+	</div> <!-- /.row -->
+	
+  </div> <!-- /.container -->
+  
+</section> <!-- /.highlights -->
+
+
+<div class="background_img">     <!-- section2~16的背景 -->
+<!-- Features -->
+<section class="ourFeatures" id="section-2">
+  <div class="container">
+	<div class="row">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/1_wall.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/vp8TgIhr0-8?rel=0&amp;start=80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">			
+			 <h1 class="box-2" style="color:#FFFFFF">海門天險<img id="addstory1" class="addstory" src="img\hand_black_red.jpg" height="100px"></h1>
+				<div class="box-2"><!-- Main Points -->
+					<i class="line-font blue icon-shield"></i><!-- Main Point Icon -->
+                    
+					<p style="color:#FFFFFF" ><font face="DFKai-sb">海門天險曾經是中法戰爭的清軍陣地</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">在這場戰役中清朝官兵死傷無數</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">據說戰後保守估計清朝官兵的屍體有上千具之多</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">於是清朝人在此挖了三個墓穴</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">將幾千具清朝官兵屍體通通埋在一起</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">而海門天險的山腳下也有座「法國公墓」</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">裡面則安放著法國官兵的遺體</font></p>
+
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">相隔數百年後
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">當年那三座埋清朝人的墳墓</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">至今仍在海門天險內可見</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">而海門天險的山腳下仍有座「法國公墓」</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">由於裡面沒有裝置路燈</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">晚上去一定要帶明亮的照明設備</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">且裡面陰氣很重地上布滿青苔</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">一不小心或許就會滑倒。</font></p>
+
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">裡面有間古代用大石頭所堆砌起來的彈藥庫</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">是清朝官兵堆放彈藥的地方</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">由於年代已久，裡面也已雜草叢生</font></p>
+                    <p style="color:#FFFFFF" ><font face="DFKai-sb">據說到了夜晚還會有清軍喊"開砲"或是"殺呀"還有法文的"上啊~攻下那座砲台"</font></p>
+				</div>
+			</div>
+	</div>
+  </div>
+</section>
+		
+<section class="ourFeatures" id="section-3">
+  <div class="container" >
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory2" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h1 class="box-2" style="color:#FFFFFF">和平島</h1>
+                <br/>
+                <div class="box-2">
+				<p style="color:#FFFFFF" ><font face="DFKai-sb">曾經有個人在深水區被誤殺</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">頭被砍了下來</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">現在晚上還滿多人在那邊烤肉的</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">但是他們不知道有時候會看到個沒有頭的人</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">正在尋找自己的頭...</font></p>
+                </div>
+			</div>
+			<div class="evenimg">
+				<img  src="img/和平島.jpg" width="500" height="315" alt="">				
+               
+			</div>
+	</div>
+	</div> <!-- /.row -->
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-4">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/女宿舍.jpg" width="500" height="315" alt="">
+				
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+            
+            
+       
+
+				<h1 class="box-2" style="color:#FFFFFF">海洋大學 女舍<img id="addstory3" class="addstory" src="img\hand_black_red.jpg" height="100px"></h1>
+                
+                <div class="box-2">
+				<p style="color:#FFFFFF" ><font face="DFKai-sb">那一年有一個學姐因為和同學吵架..</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">然後跑到天台</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">一氣之下就往下跳</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">據說學姐死前雙手曾死命的抓著東西</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">還是不幸墜至後山</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">這個悲劇是誰也不想看到的</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">大家都不相信學姐會這麼脆弱..</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">身體支離破碎</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">之後經過大家發現後</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">將屍體收撿起來拼湊</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">可是再怎麼的找怎麼的拼 就是少了一支手</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">接著事情就發生了......</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">那一夜 我同學(住女一宿) 晚上起來上廁所後 更懶洋洋的要回房間了..</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">但是就在她要進房的時候..就聽到旁邊傳來"叩叩叩..."的聲音</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">她心想"這麼晚了,怎麼還不睡啊!"就往隔壁望去</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">這一望可把她的膽子都給望破了</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">她看到了就在不遠的寢室門口有一支手正在敲門.一支手,浮在半空的一支手啊!!</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">她馬上沒命的往跑進寢室.棉被拿著就往頭上套....</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他只聽到這個"叩叩叩..."的聲音越來越漸...終於來到她的門前了....</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">"叩叩叩..."的一直響...,她膽都沒了那可能還是開門啊!最後她同學終於被吵醒了..</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">誰啊!這麼晚了!真....."然後便去開門了</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他想和她的同學說可是怎麼樣都沒有辨法開口....</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">只聽到她同學慘叫.......</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">然後她也嚇昏了...........</font></p>
+                   			
+			 </div>
+			</div>
+            
+	</div>
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-5">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory4" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h2 class="box-2" style="color:#FFFFFF">海洋大學 龍岡步道</h2>
+                <br/>
+                <div class="box-2">
+<p style="color:#FFFFFF" ><font face="DFKai-sb">龍岡是海大的後山</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">海拔不高  輕鬆好爬  很受到當地民眾的歡迎</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">學長A對龍岡的路很熟</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">有一次帶著他朋友B.C一起在深夜夜遊龍岡</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">他們爬沒多久手電筒就沒電</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">此時B就拿出備用的手電筒  但一打開就熄了</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">B表示電池才剛換不可能這麼衰吧</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">此時C拿出他的手機 SHOW了一下上面的電量是滿格</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">但也是一樣一打開就熄了</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">山裡的徐徐的微風 開始漸漸增強了力道</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">一旁竹林的窸窣聲 也更為響亮</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">此時三人似乎同時有了默契 互看著彼此一語不發的走下山</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">隔天C看報紙發現</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">昨天有人在龍岡上吊 預估死亡時間是在傍晚</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">C立刻通知A.B這件事情</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">A到了宿舍交誼廳 看了報紙上現場的照片</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">臉色凝重的說著</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">我們昨天要是再往前走一點點就會看見祂了....</font></p>
+				
+			</div> 
+			</div>
+            
+			<div class="evenimg">
+				<img  src="img/龍岡步道.jpg" width="500" height="315" alt="">
+				
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-6">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/男宿.jpg" width="500" height="315" alt="">
+				
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+		    <h2 class="box-2" style="color:#FFFFFF">海洋大學 男二宿舍<img id="addstory5" class="addstory" src="img\hand_black_red.jpg" height="100px"></h2>
+            <div class="box-2">
+<p style="color:#FFFFFF" ><font face="DFKai-sb">有一個住在男二的同學</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">從住進宿舍晚上開始</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">半夜常常會聽到外面廣場傳來踏步的聲音</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">但當他把頭探出去的時候</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">那個聲音又會默默地消失</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">詭異的是同樓層的其他房間都沒聽到</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">而他的室友也都沒聽到因此一致認為是他幻聽</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">直到有一天晚上剩A一個人在房間</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">而這次A終於忍耐到了極限  打開窗戶 向外破口大罵</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">但他看見 外面的廣場上</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">站著一個身穿日式軍服的軍人</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">正在帶領一群日本兵 行軍踏步</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">有規律的進行練習</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">然而在A罵完的同時  日本班長一個口令所有的日本兵即立刻立正</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">接著拔出腰間的佩刀 指向A的方向 而所有日本兵在那一瞬間</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">全部面無血色的死盯著那位同學的位子</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">此時那位同學嚇慘了  立刻縮回房間躺到床上</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">過沒多久 消失的踏步聲又漸漸響起</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">這次聲音是從走廊傳來的......</font></p>
+
+            </div>			 
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-7">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory6" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h2 class="box-2" style="color:#FFFFFF">海洋大學 101號房</h2>
+                <br/>
+                <div class="box-2">
+<p style="color:#FFFFFF" ><font face="DFKai-sb">住過男一舍的都知道 一樓有間神奇的101號房</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">當門關上的時候看起來與其他房間無異</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">裡面有冰箱.微波爐.自動販賣機.伺服器</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">這類生活設施都集中在這</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">最妙的是 這裡的燈是感應式</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">只要有人經過它就會自動開啟</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">常常會嚇到找開關的新生</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">一位同學有一次問舍監</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">那間以前有人住嗎?</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">便會開啟舍監的講古時間~~</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">5樓有一間房間其實關閉過幾年</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">當時有個建中的學生住在裡面  因為考上海洋大學</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">心情不好 壓力大受挫  有天就從頂樓跳下來</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">而他墜落的位置剛好在101號外面</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">101房的窗戶沒關</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">因此祂在落地後 有一部份的大體  飛進了101號房</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">從此101號房的學生們天天都不得安寧  紛紛申請退宿</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">當時校方把此事認為是無稽之談</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">而學校的鐵齒教官自認身懷正氣</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">決定單獨進去住一個晚上 破解這個流言</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">當天凌晨四點多  走廊一如往常的平靜</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">教官默默地從101號房裡走出來</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">嘴裡一直說著</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">操他媽的  這間真的太陰了</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">而教官一直不願透漏當晚發生的事</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">只知道他有大喊求救  但連隔壁102房都沒聽到</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">故事說到這裡就結束了</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">語畢的同時朋友A下意識地望著101房的方向</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">燈突然亮了~</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">卻不見半個人進去...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">或許是有"東西"正從裡面走出來吧</font></p>
+
+				
+			 </div>
+			</div>
+            
+            <div class="evenimg">
+				<img  src="img/男宿舍.jpg" width="500" height="315" alt="">
+				
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-8">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/海事大樓.jpg" width="500" height="315" alt="">
+				
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+				<h2 class="box-2" style="color:#FFFFFF">海洋大學 海事大樓<img id="addstory7" class="addstory" src="img\hand_black_red.jpg" height="100px"></h2>
+                <div class="box-2">
+<p style="color:#FFFFFF" ><font face="DFKai-sb">一棟外觀看起來舊舊的建築物</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">如果去過校史館  可以知道這棟建物的年齡</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">跟校齡是一樣的</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">聽說當初在蓋的時候</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">有一個工人誘殺了小女孩</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">並把她扔到水泥攪拌機當中 毀屍滅跡</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">所以當年大樓落成不久之後</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">在深夜有時會聽到她的哭聲或笑聲</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">在某座樓梯 偶爾會遇見她  問妳要不要一起數有幾階</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">當然還沒有聽過有人答應過她</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">但大家猜測</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">她  就是那座樓梯的一部分.....</font></p>
+
+				</div>
+			 
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+</section> <!-- /.ourFeatures -->
+
+
+
+<section class="ourFeatures" id="section-9">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory8" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h2 class="box-2" style="color:#FFFFFF">蝙蝠洞</h2>
+                <div class="box-2">
+                <br/>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">死者跟羊肉爐老闆認識...</font></p>
+				<p style="color:#FFFFFF" ><font face="DFKai-sb">案子發生當天是死者的生日</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">當天特地到羊肉爐店喝酒慶生</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">到卡拉OK續攤喝得醉醺醺後 深夜又獨自一人回到羊肉爐店要繼續喝</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">老闆女友好心勸他別喝了</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">卻在拉扯間被推到地下室</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">觸動老闆殺機</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">氣起來就拿吊毛巾的鐵條 失手把他打死了</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">並將屍體拉到浴室分屍</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">當時鄰居聽到整晚剁肉的聲音 還狐疑生意也太好了 肉的用量這麼大</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">卻不知老闆將屍塊剁小塊 煮成羊肉爐賣給客人</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">而頭顱則棄屍在濱海公路蝙蝠洞...</font></p>
+				
+			 </div>
+			</div>
+            
+			<div class="evenimg">
+				<img  src="img/蝙蝠洞.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://youtu.be/blx-fVtzai0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-10">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/基隆七號房.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/xDwL2_Yr03g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+				<h2 class="box-2" style="color:#FFFFFF">基隆七號房<img id="addstory9" class="addstory" src="img\hand_black_red.jpg" height="100px"></h2>
+                <div class="box-2">
+                <p style="color:#FFFFFF" >在日據時代有一對夫妻跟一個兒子住在某宿舍的第七號房</font></p>
+                <p style="color:#FFFFFF" >但丈夫卻在外面養情婦 後來被老婆發現</font></p>
+                <p style="color:#FFFFFF" >丈夫一怒之下就把她殺了</font></p>
+                <p style="color:#FFFFFF" >但他不知該怎麼處理 只好先放冰箱裏鎖起來</font></p>
+                <p style="color:#FFFFFF" >但小孩一直問媽媽在哪裏</font></p>
+                <p style="color:#FFFFFF" >丈夫居然怕被發現</font></p>
+                <p style="color:#FFFFFF" >就從太太身上的肉一片一片的割下給小孩做便當吃</font></p>
+                <p style="color:#FFFFFF" >一直到有一天 小孩的老師發現他精神不太好 才突發奇想去做家庭訪問</font></p>
+                <p style="color:#FFFFFF" >結果聞到一股嚴重的惡臭 又看到冰箱被鐵鍊鎖綁住</font></p>
+                <p style="color:#FFFFFF" >才打電話報警 這個案子才被偵破的</font></p>
+                </div>
+			 
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-11">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory10" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h2 class="box-2" style="color:#FFFFFF">基隆鬼屋</h2>
+                <br/>
+                <div class = "box-2">
+				<p style="color:#FFFFFF" ><font face="DFKai-sb">以前是個酒店</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">故事中的男主角是個美國大兵</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">而女主角是酒店的小姐</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">由於那美國大兵天天的觀臨酒店的那小姐</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">漸漸的他們生出了濃厚的感情</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">卻沒有想到中美共同防禦條約會停止</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">美國的海軍要退回故鄉而那位美國大兵在走時 與那位酒店小姐定下山盟海誓</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他告訴她 在我有生之年我一定會帶你回去美國結婚的</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">坐上船的美國大兵走了之後</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">那酒店小姐就天天打開窗戶癡癡的望著海港</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">每每船笛一響她就誤以為是海軍再度回到基隆港 興奮的打開窗探頭觀望</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">但總每次的失望...</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">直到他年老珠黃 神智也一天天的失常 最後鬱鬱寡歡而終</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">也有人說她是上吊死的</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb"></font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb"></font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb"></font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">後來有名鐵齒的年輕人不相信這事</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">跟他朋友打賭 要是他安然在那度過一天隔天他們就要請他吃一頓好的</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">但沒有想到才到半夜 那人就從樓上摔下來 跌斷了腿</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">也受到嚴重的驚嚇</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他告訴他朋友他並沒有看到那女的但他睡到半夜</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">只覺得身旁四周涼涼的</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他起身一看四周全是蛇</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他嚇的從樓上跌下來...</font></p>
+
+			 </div>
+			</div>
+            
+			<div class="evenimg">
+				<img  src="img/基隆鬼屋.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/GwTox7Ryt7w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-12">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/淨因寺.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/ayS85P5lBrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+				<h2 class="box-2" style="color:#FFFFFF">淨因寺<img id="addstory11" class="addstory" src="img\hand_black_red.jpg" height="100px"></h2>
+                <div class="box-2">
+				<p style="color:#FFFFFF" ><font face="DFKai-sb">坐落於基隆中山一路上</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">淨因寺當時蓋好時 當時的住持剛好過世</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">從此荒廢至今</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">廟內許多神像、祭祀用品都沒人清理</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">更有人發現廟內仍放有骨灰罈</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">因此讓淨因寺被網友封為"基隆鬼廟"</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">其中外牆全部脫落</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">祭拜神像宮殿天花板鋼筋外露</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">往二樓走更發現該荒廢寺廟尚未被斷電</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">神像上布滿蜘蛛網</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">還留下一本結婚照片</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">令人感到陰風陣陣</font></p>
+                </div>
+
+
+				
+			 
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-13">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory12" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h2 class="box-2" style="color:#FFFFFF">情人湖</h2>
+                <br/>
+                <div class = "box-2">
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">有一對相戀的男女在情人湖私訂終生</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">後來因男生移情別戀</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">女方因想不開 而在她們立下海誓山盟的地方投湖自殺</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">從此以後</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">有人都常常見到全身濕搭搭的白衣女子在此黯然哭泣</font></p>
+				
+			 </div>
+			</div>
+            
+			<div class="evenimg">
+				<img  src="img/情人湖.jpg" width="500" height="315" alt="">
+				
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-14">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/大武崙砲台.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/vp8TgIhr0-8?rel=0&amp;start=80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+				<h2 class="box-2" style="color:#FFFFFF">大武崙砲台<img id="addstory13" class="addstory" src="img\hand_black_red.jpg" height="100px"></h2>
+                <div class="box-2" >
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">大武崙砲台位於台灣基隆市安樂區</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">歷經19世紀鴉片戰爭與清法戰爭的歷史砲台建築</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">傳說到了晚上</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">在這裡就會聽到軍隊的亡魂操練的聲音</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">更會有奇怪的聲音或是影像出現</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">曾有個年輕人帶著女朋友來此夜遊 便想捉弄女友</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">女友一直叫男友帶她離開 但男生卻不肯</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他們走著走著走到一個房間 看到眼前的窗戶有個白影飄過去</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">走近一看竟然發現有個帶帽子的人探頭出來</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">兩人便嚇得落荒而逃</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">還有一群人來此夜遊</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">看到有個人獨自坐在木椅上</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">當時他們之中有個人是乩童</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">沒想到忽然起駕 過沒多久就暈過去</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">事後大家問他怎麼一回事</font></p>
+                <p style="color:#FFFFFF" ><font face="DFKai-sb">他只說這裡的軍人一直攻擊他 要他們一行人趕快離開這裡....</font></p>
+			 </div>
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-15">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-md-6">
+            <img id="addstory14" class="addstory2" src="img\hand_black_red.jpg" height="100px">
+				<h2 class="box-2" style="color:#FFFFFF">自強隧道</h2>
+                <br/>
+                <div class = "box-2">
+<p style="color:#FFFFFF" ><font face="DFKai-sb">進入隧道中 會有汗毛豎立的窒息感</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">雖然想躲避...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">卻彷彿有人召喚般...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">讓人無法離開...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">位於基隆安樂區的自強隧道</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">有三十六年歷史</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">地處交通要道</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">不過 由於隧道內視線不佳</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">汽機車不時爭道 意外時有所聞</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">曾有敏感體質的人</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">行經隧道時出現不適感</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">更有民眾發生猶如中邪、機車失控往牆壁衝的狀況</font></p>
+
+				
+			 </div>
+			</div>
+            
+			<div class="evenimg">
+				<img  src="img/自強隧道.jpg" width="500" height="315" alt="">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/72opj7iK29I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-16">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/劉銘傳隧道.jpg" width="500" height="315" alt="">
+				
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+				<h2 class="box-2" style="color:#FFFFFF">劉銘傳隧道<img id="addstory15" class="addstory" src="img\hand_black_red.jpg" height="100px"></h2>
+                <div class="box-2" >
+<p style="color:#FFFFFF" ><font face="DFKai-sb">進入隧道中 會有汗毛豎立的窒息感</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">雖然想躲避...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">卻彷彿有人召喚般...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">讓人無法離開...</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">位於基隆安樂區的自強隧道</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">有三十六年歷史</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">地處交通要道</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">不過 由於隧道內視線不佳</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">汽機車不時爭道 意外時有所聞</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">曾有敏感體質的人</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">行經隧道時出現不適感</font></p>
+<p style="color:#FFFFFF" ><font face="DFKai-sb">更有民眾發生猶如中邪、機車失控往牆壁衝的狀況</font></p>
+				
+			 </div>
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+</div>
+<!-- Subscribe -->
+<section class="subscribe" id="section-17">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-12">
+		<!-- Title -->
+		<h2>PDF</h2>
+		<!-- Subscribe form -->
+		<div class="row">
+		  <div class="col-md-6 col-md-offset-3 ">
+			<section class="subscribe-description">
+			  <div id = "searches"></div>
+			  <button class="button_pdf"type="button" onclick="genPDF()">generate PDF!!</button> 
+			</section> <!-- /.subscribe-description -->			
+		  </div> <!-- /.col-md-6 -->
+		</div> <!-- /.row -->		
+	  </div> <!-- /.col-md-12 -->	  
+	</div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section> <!-- /.subscribe -->
+
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script language="javascript" type="text/javascript" src="pdf/jspdf.js"></script>
+<script language="javascript" type="text/javascript" src="pdf/jspdf.plugin.autotable.js"></script>
+<script language="javascript" type="text/javascript" src="pdf/jspdf.plugin.supportchinese.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="story.js"></script>
+<script src="genpdf.js"></script>
+
+<script>		
+$(document).ready(function()					//初始
+{
+	
+	$("#story1").mouseover(function(){$("#story1").attr("src","img/ghostred.png");genstory(1)});
+	$("#story1").mouseout(function(){$("#story1").attr("src","img/ghost.png");clean()});
+	$("#addstory1").mouseover(function(){if(!check(1)){$("#addstory1").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory1").mouseout(function(){if(!check(1)){$("#addstory1").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory1").click(function(){if(check(1)){removestory(1);}else{addstory(1);}});
+
+
+									
+	$("#story2").mouseover(function(){$("#story2").attr("src","img/ghostred.png");genstory(2)});
+	$("#story2").mouseout(function(){$("#story2").attr("src","img/ghost.png");clean()});
+	$("#addstory2").mouseover(function(){if(!check(2)){$("#addstory2").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory2").mouseout(function(){if(!check(2)){$("#addstory2").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory2").click(function(){if(check(2)){removestory(2);}else{addstory(2);}});
+
+    $("#story3").mouseover(function(){$("#story3").attr("src","img/ghostred.png");genstory(3)});
+	$("#story3").mouseout(function(){$("#story3").attr("src","img/ghost.png");clean()});
+	$("#addstory3").mouseover(function(){if(!check(3)){$("#addstory3").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory3").mouseout(function(){if(!check(3)){$("#addstory3").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory3").click(function(){if(check(3)){removestory(3);}else{addstory(3);}});
+
+    $("#story4").mouseover(function(){$("#story4").attr("src","img/ghostred.png");genstory(4)});
+	$("#story4").mouseout(function(){$("#story4").attr("src","img/ghost.png");clean()});
+	$("#addstory4").mouseover(function(){if(!check(4)){$("#addstory4").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory4").mouseout(function(){if(!check(4)){$("#addstory4").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory4").click(function(){if(check(4)){removestory(4);}else{addstory(4);}});	
+    
+    $("#story5").mouseover(function(){$("#story5").attr("src","img/ghostred.png");genstory(5)});
+	$("#story5").mouseout(function(){$("#story5").attr("src","img/ghost.png");clean()});
+	$("#addstory5").mouseover(function(){if(!check(5)){$("#addstory4").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory5").mouseout(function(){if(!check(5)){$("#addstory4").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory5").click(function(){if(check(5)){removestory(5);}else{addstory(5);}});	  
+
+    $("#story6").mouseover(function(){$("#story6").attr("src","img/ghostred.png");genstory(6)});
+	$("#story6").mouseout(function(){$("#story6").attr("src","img/ghost.png");clean()});
+	$("#addstory6").mouseover(function(){if(!check(6)){$("#addstory6").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory6").mouseout(function(){if(!check(6)){$("#addstory6").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory6").click(function(){if(check(6)){removestory(6);}else{addstory(6);}});
+
+    $("#story7").mouseover(function(){$("#story7").attr("src","img/ghostred.png");genstory(7)});
+	$("#story7").mouseout(function(){$("#story7").attr("src","img/ghost.png");clean()});
+	$("#addstory7").mouseover(function(){if(!check(7)){$("#addstory7").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory7").mouseout(function(){if(!check(7)){$("#addstory7").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory7").click(function(){if(check(7)){removestory(7);}else{addstory(7);}});
+
+    $("#story8").mouseover(function(){$("#story8").attr("src","img/ghostred.png");genstory(8)});
+	$("#story8").mouseout(function(){$("#story8").attr("src","img/ghost.png");clean()});
+	$("#addstory8").mouseover(function(){if(!check(8)){$("#addstory8").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory8").mouseout(function(){if(!check(8)){$("#addstory8").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory8").click(function(){if(check(8)){removestory(8);}else{addstory(8);}});	
+    
+    $("#story9").mouseover(function(){$("#story9").attr("src","img/ghostred.png");genstory(9)});
+	$("#story9").mouseout(function(){$("#story9").attr("src","img/ghost.png");clean()});
+	$("#addstory9").mouseover(function(){if(!check(9)){$("#addstory8").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory9").mouseout(function(){if(!check(9)){$("#addstory8").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory9").click(function(){if(check(9)){removestory(9);}else{addstory(9);}});	  
+
+    $("#story10").mouseover(function(){$("#story10").attr("src","img/ghostred.png");genstory(10)});
+	$("#story10").mouseout(function(){$("#story10").attr("src","img/ghost.png");clean()});
+	$("#addstory10").mouseover(function(){if(!check(10)){$("#addstory10").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory10").mouseout(function(){if(!check(10)){$("#addstory10").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory10").click(function(){if(check(10)){removestory(10);}else{addstory(10);}});	
+
+    $("#story11").mouseover(function(){$("#story11").attr("src","img/ghostred.png");genstory(11)});
+	$("#story11").mouseout(function(){$("#story11").attr("src","img/ghost.png");clean()});
+	$("#addstory11").mouseover(function(){if(!check(11)){$("#addstory11").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory11").mouseout(function(){if(!check(11)){$("#addstory11").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory11").click(function(){if(check(11)){removestory(11);}else{addstory(11);}});	
+    
+    $("#story12").mouseover(function(){$("#story12").attr("src","img/ghostred.png");genstory(12)});
+	$("#story12").mouseout(function(){$("#story12").attr("src","img/ghost.png");clean()});
+	$("#addstory12").mouseover(function(){if(!check(12)){$("#addstory12").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory12").mouseout(function(){if(!check(12)){$("#addstory12").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory12").click(function(){if(check(12)){removestory(12);}else{addstory(12);}});	  
+
+    $("#story13").mouseover(function(){$("#story13").attr("src","img/ghostred.png");genstory(13)});
+	$("#story13").mouseout(function(){$("#story13").attr("src","img/ghost.png");clean()});
+	$("#addstory13").mouseover(function(){if(!check(13)){$("#addstory13").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory13").mouseout(function(){if(!check(13)){$("#addstory13").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory13").click(function(){if(check(13)){removestory(13);}else{addstory(13);}});
+
+    $("#story14").mouseover(function(){$("#story14").attr("src","img/ghostred.png");genstory(14)});
+	$("#story14").mouseout(function(){$("#story14").attr("src","img/ghost.png");clean()});
+	$("#addstory14").mouseover(function(){if(!check(14)){$("#addstory14").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory14").mouseout(function(){if(!check(14)){$("#addstory14").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory14").click(function(){if(check(14)){removestory(14);}else{addstory(14);}});
+
+    $("#story15").mouseover(function(){$("#story15").attr("src","img/ghostred.png");genstory(15)});
+	$("#story15").mouseout(function(){$("#story15").attr("src","img/ghost.png");clean()});
+	$("#addstory15").mouseover(function(){if(!check(15)){$("#addstory15").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory15").mouseout(function(){if(!check(15)){$("#addstory15").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory15").click(function(){if(check(15)){removestory(15);}else{addstory(15);}});	
+    
+    $("#story16").mouseover(function(){$("#story16").attr("src","img/ghostred.png");genstory(16)});
+	$("#story16").mouseout(function(){$("#story16").attr("src","img/ghost.png");clean()});
+	$("#addstory16").mouseover(function(){if(!check(16)){$("#addstory16").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory16").mouseout(function(){if(!check(16)){$("#addstory16").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory16").click(function(){if(check(16)){removestory(16);}else{addstory(16);}});	    
+    
+	var playflag;
+	function switchBGM(){
+		var x = document.getElementById("myAudio"); 
+		x.loop=true; 			//循環播放
+		if(playflag==0){
+			x.play();
+			playflag=1;
+		}
+		else{
+			x.pause();
+			playflag=0;
+		}
+	}    
+									
+});
+
+
+</script>
+</body>
+</html>
