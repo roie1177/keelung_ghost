@@ -828,8 +828,8 @@ $(document).ready(function()					//初始
     
     $("#story9").mouseover(function(){$("#story9").attr("src","img/ghostred.png");genstory(9)});
 	$("#story9").mouseout(function(){$("#story9").attr("src","img/ghost.png");clean()});
-	$("#addstory9").mouseover(function(){if(!check(9)){$("#addstory8").attr("src","img/hand_black_green.jpg");}});									
-	$("#addstory9").mouseout(function(){if(!check(9)){$("#addstory8").attr("src","img/hand_black_red.jpg");}});
+	$("#addstory9").mouseover(function(){if(!check(9)){$("#addstory9").attr("src","img/hand_black_green.jpg");}});									
+	$("#addstory9").mouseout(function(){if(!check(9)){$("#addstory9").attr("src","img/hand_black_red.jpg");}});
 	$("#addstory9").click(function(){if(check(9)){removestory(9);}else{addstory(9);}});	  
 
     $("#story10").mouseover(function(){$("#story10").attr("src","img/ghostred.png");genstory(10)});
